@@ -2,7 +2,10 @@ import React from 'react';
 import { Header } from './components/Header';
 import { Profile } from './components/Profile';
 import { SocialLinks } from './components/SocialLinks';
+import { Blog } from './pages/Blog';
+import { Projects } from './pages/Projects';
 import { Talks } from './pages/Talks';
+import { Sponsors } from './pages/Sponsors';
 import { DotGrid } from './components/DotGrid/DotGrid';
 
 function App() {
@@ -19,7 +22,10 @@ function App() {
             <SocialLinks />
           </>
         )}
+        {path === '/blog' && <Blog />}
+        {path === '/projects' && <Projects />}
         {path === '/talks' && <Talks />}
+        {path === '/sponsors' && <Sponsors />}
       </main>
     </div>
   );

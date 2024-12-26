@@ -4,7 +4,7 @@ export function Link({ href, className = '', children }) {
   return (
     <a 
       href={href}
-      className={`text-gray-300 hover:text-white transition-colors ${className}`}
+      className={`text-white hover:text-white/80 transition-colors ${className}`}
     >
       {children}
     </a>

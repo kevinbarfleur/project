@@ -9,8 +9,8 @@ export function Header() {
         <div className="flex items-center gap-6">
           <Link href="/blog">Blog</Link>
           <Link href="/projects">Projects</Link>
-          <Link href="/talks">Talks</Link>
-          <Link href="/sponsors">Sponsors</Link>
+            <Link href="/talks">Talks</Link>
+            <Link href="/sponsors">Sponsors</Link>
         </div>
       </nav>
     </header>
